@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:56875",
+      "sslPort": 44302
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "DATABASE_HOST": "DESKTOP-RB9ULFU\\SQLEXPRESS",
+        "DATABASE_PASSWORD": "Test@123",
+        "DATABASE_NAME": "HealthCare",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_PORT": "1433",
+        "DATABASE_USER": "enrolliquser"
+      }
+    },
+    "HealthcareAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
